@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<div>
+    <header class="menu">
+        <ul>
+            <li>
+                <a href="../../index.html">General</a>
+            </li>
+            <li>
+                <a href="../gallery/gallery.html">Gallary</a>
+            </li>
+            <li>
+                <a href="../articles/articles.html">Articles</a>
+            </li>
+            <li>
+                <a href="#contacts">Contacts</a>
+            </li>
+            <li>
+                <a href="../about/about.html">About</a>
+            </li>
+            <li>
+                <a href="../useful-links/useful_links.html">Useful links</a>
+            </li>
+        </ul>
+    </header>
+</div>
+<h1 id="contacts">Contacts </h1>
+<div class="contact">
+    <p>
+        <b>Socials of the site creator:</b>
+    </p>
+    <a href="https://www.instagram.com/ihor.sydoruk/" target="_blank">
+        <img src="../../images/instagram-logo.svg" alt="Instagram logo" height="35">
+    </a>
+    <a href="https://t.me/sydoruk_i" target="_blank">
+        <img src="../../images/telegram-logo.svg" alt="Telegram logo" height="35">
+    </a>
+</div>
+<form action="/submit-form" method="post" id="feedback">
+    <fieldset>
+        <legend>Leave your feedback:</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <div>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Type your message here"></textarea>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend> Your favourite driver:</legend>
+        <label>
+            <input type="radio" name="racer" value="Norris"> Norris
+        </label>
+        <label>
+            <input type="radio" name="racer" value="Verstappen"> Verstappen
+        </label>
+    </fieldset>
+    <fieldset>
+        <legend>Your favourite team:</legend>
+        <label for="team">Select a team:</label>
+        <select id="team" name="team">
+            <option value="none" selected disabled>-- Select a team --</option>
+            <option value="mclaren">McLaren</option>
+            <option value="redbull">Red Bull</option>
+        </select>
+    </fieldset>
+    <fieldset class="submit">
+        <div class="subscribe">
+            <input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+        <div>
+            <button type="reset">Reset</button>
+        </div>
+    </fieldset>
+</form>
+</body>
+</html>
