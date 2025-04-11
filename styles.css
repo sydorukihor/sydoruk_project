@@ -292,3 +292,8 @@ button[type="reset"]:hover {
     display: inline-block;
     margin-right: 10px;
 }
+
+.article_image_2 {
+    float: left;
+    padding: 10px;
+}
