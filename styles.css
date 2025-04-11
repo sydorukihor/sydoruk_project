@@ -297,3 +297,10 @@ button[type="reset"]:hover {
     float: left;
     padding: 10px;
 }
+.overflow-practice {
+    clear: both;
+    width: 200px;
+    margin: auto;
+    max-height: 200px;
+    overflow-y: scroll;
+}
